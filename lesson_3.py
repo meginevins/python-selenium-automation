@@ -38,6 +38,8 @@ driver.find_element(By.ID, 'continue')
 driver.find_element(By.CSS_SELECTOR, 'a[href*="ap_register_notification_condition_of_use"]')
 # privacy notice
 driver.find_element(By.CSS_SELECTOR, 'a[href*="ap_register_notification_privacy_notice"]')
+# sign in
+driver.find_element(By.CSS_SELECTOR, '.a-link-emphasis')
 
 
 print('Test Passed')
