@@ -3,6 +3,8 @@ from time import sleep
 from pages.base_page import Page
 
 
+
+
 class CartPage(Page):
 
     CART_ICON = (By.CSS_SELECTOR, "[data-test='@web/CartIcon']")
